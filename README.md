@@ -1,5 +1,21 @@
-# happy
-Projeto desenvolvido durante a 3° edição da Neext Level Week
+<h1 align="center" >
+
+  <img alt="Happy" title="Happy" src="/Trilha OmniStack/web/src/images/logo.svg"/>
+ 
+</h1>
+
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<p align="center">
+  <img alt="Happy" src="/Trilha OmniStack/web/src/images/landing.svg" width="35%">
+</p>
+
 
 ## Baixar projeto
   ```bash
@@ -8,10 +24,42 @@ Projeto desenvolvido durante a 3° edição da Neext Level Week
 
   ```
 
+## Iniciando o backend
+  ```bash
+  # Entre na pasta backend
+  $ cd Trilha\ OnmiStack/backend
+  
+  # Instale as dependências
+  $ yarn install
+  ou
+  $ npm install
+  
+  # Para o executar o servidor
+  $ yarn dev
+
+  ```
+
+## Iniciando o frontend
+  ```bash
+  # Entre na pasta web
+  $ cd Trilha\ OnmiStack/web
+  
+  # Instale as dependências
+  $ yarn install
+  ou
+  $ npm install
+  
+  # Execute o servidor
+  $ yarn start
+  
+
+  ```
+
+
 ## Iniciando o expo
   ```bash
   
-  #Instale o expo
+  # Instale o expo
   $ yarn add global expo-cli
   ou
   $ npm install -g expo-cli
