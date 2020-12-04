@@ -85,3 +85,9 @@ function toggleSelect(event) {
 
     input.value = button.dataset.value
 }
+
+
+// todo
+function validate(event) {
+    event.preventDefault();
+}
